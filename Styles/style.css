@@ -1,0 +1,133 @@
+/* -------------------------------------
+----------------------------------------
+Type : Cascading Style Sheet
+Author : Flows
+Created in : 25-07-2021
+Last modification : 25-07-2021
+Version : 1.0
+----------------------------------------
+--------------------------------------*/
+
+body{
+    font: 16px "Roboto", "Open-Sans", sans-serif;
+}
+/* ========= HEADER ========= */
+.title-head{
+    height: 100vh;
+    width: 100vw;
+    /*display: inline-block;*/
+}
+
+div#logo-main{
+    display: flex;
+    /*padding-top: 100px;*/
+
+}
+#logo-main img{
+    margin-top: 32px;
+    height: 250px;
+    width: auto;
+}
+
+div.title-head div#logo-main p.title-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15vh 40vw 20vh 0;
+    font-weight: 700;
+    color: black;
+    /*line-height: 135px;*/
+}
+div.title-head div#logo-main p.title-main.l1{
+    font-size: 80px;
+
+}
+div.title-head div#logo-main p.title-main.l2{
+    font-size: 150px;
+    
+}
+.pages-links{
+    display: flex;
+}
+.btn-header button{
+    padding: .5rem 1.2rem;
+    border-radius: 5px 5px;
+    background-color: gray;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* ========= FOOTER ========= */
+
+footer{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.ft-1, .ft-2, .ft-3, .ft-4{
+    width: 100%;
+    padding: 30px 0;
+    font-size: 13px;
+}
+.ft-1 img{
+    height: 100px;
+    margin: 0 60px;
+}
+div.ft-3 ul>li{
+    list-style-type: none;
+}
+div.ft-4 ul>li{
+    list-style-type: none;
+}
+/* --- RESPONSIVE DESIGN MODE --- */
+
+@media screen and (max-width: 900px) {
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+
+/*.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    'logo header header header header'
+    'event event event event event'
+    'bio bio bio bio bio'
+    'footer footer footer footer';
+}
+.title-head{
+    grid-column: 200px, auto;
+    grid-row: 1;
+    grid-area: header;
+    width: 100%;
+    background-color: aqua;
+    display: inline-block;
+}
+#logo-main{
+    grid-area: logo;
+    grid-row: 1;
+}
+.contains{
+    grid-column: 20%, auto;
+}
+
+.event{
+    grid-area: event;
+    grid-row: 2;
+}
+
+.asso{
+    grid-area: bio;
+    grid-row: 3;
+}
+footer{
+    grid-row: 4;
+}

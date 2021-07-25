@@ -27,5 +27,21 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # Création et ajout des dossier : "Images" et "Style"
  -> Téléchargement du "LOGO" dans le dossier "Images"
 
+# Intégration de Bootstrap (CSS-JS) 
 
+# Création et ajout du dossier "Scripts"
+-> Inclut js Bootstrap
 
+# Mise à jour du dossier "Images
+-> Suppression du premier fichier "LOGO" et remplacement dans une autre taille et un autre format (500px-png)
+
+# Développement page "home.html" :
+-> header : contenu et titre
+-> body : contenus et titres
+-> footer : contenus et menus (textes sans liens hypertextes)
+
+# Création du fichier "style.css"
+-> Développement d'une mise en page du contenu
+-> Intégration des balises <link>
+
+# 
