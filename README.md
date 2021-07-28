@@ -44,4 +44,6 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 -> Développement d'une mise en page du contenu
 -> Intégration des balises <link>
 
-# 
+# Bugfix - Réajustement du header : Boutons + Responsive
+
+#

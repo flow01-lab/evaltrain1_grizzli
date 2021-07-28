@@ -11,49 +11,55 @@ Version : 1.0
 body{
     font: 16px "Roboto", "Open-Sans", sans-serif;
 }
+a:link{
+    text-decoration: none;
+}
 /* ========= HEADER ========= */
-.title-head{
+header{
     height: 100vh;
     width: 100vw;
+}
+.title-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     /*display: inline-block;*/
 }
 
 div#logo-main{
-    display: flex;
-    /*padding-top: 100px;*/
+    margin: 2%;
+    padding-right: 40px;
 
 }
 #logo-main img{
-    margin-top: 32px;
+    margin-top: 30px;
     height: 250px;
     width: auto;
 }
 
-div.title-head div#logo-main p.title-main{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 15vh 40vw 20vh 0;
-    font-weight: 700;
+div#title-main h1{
+    padding-top: 80px;
+    font-weight: 800;
     color: black;
-    /*line-height: 135px;*/
-}
-div.title-head div#logo-main p.title-main.l1{
     font-size: 80px;
+}
 
-}
-div.title-head div#logo-main p.title-main.l2{
-    font-size: 150px;
-    
-}
 .pages-links{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding-bottom: 50px;
+    justify-items: center;
 }
-.btn-header button{
+div.btn-header button{
+    grid-row: 1;
     padding: .5rem 1.2rem;
     border-radius: 5px 5px;
     background-color: gray;
-    margin-left: 30px;
-    margin-right: 30px;
+    /*margin-left: 30px;
+    margin-right: 30px;*/
+    
 }
 
 /* ========= FOOTER ========= */
@@ -86,7 +92,22 @@ div.ft-4 ul>li{
 }
 
 @media screen and (max-width: 700px) {
-    
+    .title-head{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pages-links{
+        margin-bottom: 40px;
+    }
+
+    div#title-main h1{
+        padding-top: 50px;
+        font-weight: 800;
+        color: black;
+        font-size: 60px;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
