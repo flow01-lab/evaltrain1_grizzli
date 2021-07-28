@@ -11,13 +11,28 @@ Ce documents contient :
 
 # --- INSTRUCTIONS D'UTILISATION --- #
 
-              * A LIRE ATTENTIVEMENT *
+        * A LIRE ATTENTIVEMENT *
 
 Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné aux formateurs de Digital Campus Live (Groupe STUDI) pour évaluation, correction et suivi de développement web. La compagnie Grizzli est une association loi 1901 déclaré, par conséquent les documents présents ne peuvent être diffusés ou réutilisés dans un autre but qu'une évaluation de formation. Tout contenu présent dans ce site (images, textes, noms d'événements) a un caractère fictif (hors logotype). 
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+*
 
+*MAJ_Bugfixe_B01[210728] :
+	* Mise en page du contenus des sections "Association" et "Evenements (nouveau titre -> "A l'Affiche")
+	  ->> Marges internes (hautes et basses) + Couleurs de fond + Aspect des titres (h2) + Alignements des contenus
+	* Ajout des Cartes événements dans la section "Evénements /A l'Affiche"
+	
+*MAJ_Bugfixe_H02[210728] :
+	* Ajustement des boutons Header : séparation centrale
+	* Modification CSS de l'aspect des boutons (Bootstrap + réajustement perso)
+
+*MAJ_Bugfixe_H01[210727] : 
+	* Ajustement du positionnement du logo et du titre (H1) dans le header
+	* Alignement des boutons sous le titre (Grid-centré)
+	* Ajustement du séparateur de page : bottom header
+	* Mise en page Responsive du Header (max-width:700px uniquement)
 
 # --- HISTORIQUE DE DEVELOPPEMENT  --- #
 
@@ -46,4 +61,5 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 # Bugfix - Réajustement du header : Boutons + Responsive
 
-#
+# Bugfix - Réajustement de la mise en pages des sections et du Header (boutons + couleurs de fond + Marges)
+

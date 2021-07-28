@@ -48,24 +48,75 @@ div#title-main h1{
 .pages-links{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    padding-bottom: 50px;
+    grid-template-rows: 1;
+    padding: 10%;
+    /*padding-bottom: 200px;*/
     justify-items: center;
 }
-div.btn-header button{
+div.btn-header button.btn{
+    border: 3px solid;
+    font-weight: 600;
+}
+div.btn-header button.btn:hover{
+    border: 3px solid;
+    font-weight: 600;
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.pages-links div#btn-asso{
     grid-row: 1;
-    padding: .5rem 1.2rem;
-    border-radius: 5px 5px;
-    background-color: gray;
-    /*margin-left: 30px;
-    margin-right: 30px;*/
-    
+    justify-self: end;
+    margin-right: 90px;
+}
+.pages-links div#btn-event{
+    grid-row: 1;
+    justify-self: start;
+    margin-left: 90px;
 }
 
+/* ========= BODY - Contains ========= */
+
+#events-home, #asso {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.events-container, div#asso{
+    margin: 50px 0;
+}
+
+.events-container{
+    background-color: cadetblue;
+}
+
+div.events-container>h2, div#asso>h2{
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+div.events-container>h2{
+    color: #ffffff;
+}
+div.events-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+div#asso-info{
+    display: flex;
+    flex-direction: row;
+}
+div#asso-info>p{
+    margin-left: 50px;
+    text-align: justify;
+}
 /* ========= FOOTER ========= */
 
 footer{
-    background-color: cadetblue;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
 }
