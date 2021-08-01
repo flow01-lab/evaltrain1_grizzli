@@ -102,6 +102,14 @@ nav.main-menu>ul>li{
     list-style-type: none;
     margin-left: 50px;
     margin-right: 50px;
+    color: black;
+}
+nav.main-menu>ul>li>a{
+    color: black;
+}
+nav.main-menu>ul>li>a:hover{
+    font-weight: 700;
+    color: cadetblue;
 }
 
 /* ========= BODY - Contains ========= */
