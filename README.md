@@ -63,3 +63,4 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 # Bugfix - Réajustement de la mise en pages des sections et du Header (boutons + couleurs de fond + Marges)
 
+# Ajout du contenu sur la page "event.html"
