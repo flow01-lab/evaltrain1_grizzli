@@ -19,6 +19,19 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # --- MISES À JOUR ET BUGFIXES --- #
 *
 
+*MAJ_Bugfix_H01B[210801] :
+	* Correction et mise en page du header sur la page event.html
+	* Correction du menu de navigation principal : espace, alignement, survol
+
+*MAJ_Bugfix_F01[210801] :
+	* Correction des espaces internes dans le footer [Toutes les pages]
+	* Correction de l'interlignage des éléments de navigation
+	* Correction du survol sur les liens
+
+*MAJ_Bugfixe_B02[210801] :
+	* Correction de l'esthétique et de la mise en page des boutons "Réserver"
+	* Amélioration de la mise en page de la section Association > page home.html
+
 *MAJ_Bugfixe_B01[210728] :
 	* Mise en page du contenus des sections "Association" et "Evenements (nouveau titre -> "A l'Affiche")
 	  ->> Marges internes (hautes et basses) + Couleurs de fond + Aspect des titres (h2) + Alignements des contenus
@@ -64,3 +77,7 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # Bugfix - Réajustement de la mise en pages des sections et du Header (boutons + couleurs de fond + Marges)
 
 # Ajout du contenu sur la page "event.html"
+
+# Mise en page de "event.html" : Header (standard) + Body(contenus) + Footer (correction et standardisation pour toutes les pages)
+
+# 

@@ -3,7 +3,7 @@
 Type : Cascading Style Sheet
 Author : Flows
 Created in : 25-07-2021
-Last modification : 25-07-2021
+Last modification : 1-08-2021
 Version : 1.0
 ----------------------------------------
 --------------------------------------*/
@@ -15,7 +15,7 @@ a:link{
     text-decoration: none;
 }
 /* ========= HEADER ========= */
-header{
+header#hd-home{
     height: 100vh;
     width: 100vw;
 }
@@ -88,6 +88,7 @@ div.events-container, div#asso{
 
 .events-container{
     background-color: cadetblue;
+    padding: 50px 0;
 }
 
 div.events-container>h2, div#asso>h2{
@@ -113,12 +114,63 @@ div#asso-info>p{
     margin-left: 50px;
     text-align: justify;
 }
+
+div#asso-info>div.txt-ly{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+div#asso-info>div.txt-ly>a.readmore{
+    padding-top: 50px;
+    color: black;
+}
+
+div#asso-info>div.txt-ly>a:hover{
+    font-weight: 600;
+    color:cadetblue;
+}
+
+.center-btn-cards{
+    position: relative;
+    left: 75px;
+}
+
+/* == HEADER STANDARD == */
+.header-top{
+    display: flex;
+    flex-direction: row;
+}
+.header-top>div.hd-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-top>div.hd-title>a>img{
+    height: 150px;
+    margin: 15px;
+}
+.header-top>div.hd-title>h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+nav.main-menu{
+    text-align: center;
+}
+nav.main-menu>ul>li{
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 /* ========= FOOTER ========= */
 
 footer{
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
+    padding: 10px 0;
 }
 
 .ft-1, .ft-2, .ft-3, .ft-4{
@@ -130,12 +182,18 @@ footer{
     height: 100px;
     margin: 0 60px;
 }
-div.ft-3 ul>li{
+div.ft-3>ul>a>li, div.ft-4>ul>a>li {
     list-style-type: none;
+    line-height: 25px;
+    color: black;
 }
-div.ft-4 ul>li{
-    list-style-type: none;
+
+div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
+    color: cadetblue;
+    font-weight: 500;
 }
+
+
 /* --- RESPONSIVE DESIGN MODE --- */
 
 @media screen and (max-width: 900px) {
