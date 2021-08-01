@@ -75,6 +75,35 @@ div.btn-header button.btn:hover{
     margin-left: 90px;
 }
 
+/* == HEADER STANDARD == */
+.header-top{
+    display: flex;
+    flex-direction: row;
+}
+.header-top>div.hd-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-top>div.hd-title>a>img{
+    height: 150px;
+    margin: 15px;
+}
+.header-top>div.hd-title>h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+nav.main-menu{
+    text-align: center;
+}
+nav.main-menu>ul>li{
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 /* ========= BODY - Contains ========= */
 
 #events-home, #asso {
@@ -136,34 +165,7 @@ div#asso-info>div.txt-ly>a:hover{
     left: 75px;
 }
 
-/* == HEADER STANDARD == */
-.header-top{
-    display: flex;
-    flex-direction: row;
-}
-.header-top>div.hd-title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.header-top>div.hd-title>a>img{
-    height: 150px;
-    margin: 15px;
-}
-.header-top>div.hd-title>h1{
-    font-size: 80px;
-    font-weight: 800;
-}
-nav.main-menu{
-    text-align: center;
-}
-nav.main-menu>ul>li{
-    display: inline-flex;
-    list-style-type: none;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 /* ========= FOOTER ========= */
 
 footer{
@@ -223,41 +225,3 @@ div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
     
 }
 
-/*.grid-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    'logo header header header header'
-    'event event event event event'
-    'bio bio bio bio bio'
-    'footer footer footer footer';
-}
-.title-head{
-    grid-column: 200px, auto;
-    grid-row: 1;
-    grid-area: header;
-    width: 100%;
-    background-color: aqua;
-    display: inline-block;
-}
-#logo-main{
-    grid-area: logo;
-    grid-row: 1;
-}
-.contains{
-    grid-column: 20%, auto;
-}
-
-.event{
-    grid-area: event;
-    grid-row: 2;
-}
-
-.asso{
-    grid-area: bio;
-    grid-row: 3;
-}
-footer{
-    grid-row: 4;
-}

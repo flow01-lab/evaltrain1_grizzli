@@ -17,7 +17,8 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
-*
+*MAJ_STYLE[210801]:
+	* Lissage du fichier 'style.css' : suppression des contenus 'test' inutilisés
 
 *MAJ_Bugfix_H01B[210801] :
 	* Correction et mise en page du header sur la page event.html
@@ -80,4 +81,4 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 # Mise en page de "event.html" : Header (standard) + Body(contenus) + Footer (correction et standardisation pour toutes les pages)
 
-# 
+# MAJ : Lissage du fichier 'style.css' -> suppression des appels de balise inutilisés
