@@ -84,7 +84,9 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # Création et ajout des dossier : "Images" et "Style"
  -> Téléchargement du "LOGO" dans le dossier "Images"
 
-# Intégration de Bootstrap (CSS-JS) 
+# Intégration de Bootstrap (CSS-JS)
+-> Javascript non-utilisé
+-> CSS pour certains boutons et les cartes événements 
 
 # Création et ajout du dossier "Scripts"
 -> Inclut js Bootstrap
@@ -101,29 +103,48 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 -> Développement d'une mise en page du contenu
 -> Intégration des balises <link>
 
-# Bugfix - Réajustement du header : Boutons + Responsive
+# Bugfix - Réajustement du header
+-> Boutons des liens vers 'association' et 'événements'
+-> Gestion Responsive du header pour les écrans jusqu'à 700px max de largeur
 
-# Bugfix - Réajustement de la mise en pages des sections et du Header (boutons + couleurs de fond + Marges)
+# Bugfix - Réajustement de la mise en pages de 'home.html'
+->  Mise en page des sections 'association' et 'événements' dans le Header 
+-> Ajustements de : boutons + couleurs de fond + Marges
 
 # Ajout du contenu sur la page "event.html"
+-> Ajout des cartes événements et de leur contenu textuel
+-> Ajout du footer
 
-# Mise en page de "event.html" : Header (standard) + Body(contenus) + Footer (correction et standardisation pour toutes les pages)
+# Mise en page de "event.html" 
+-> Création et ajustement de Header (standard)
+-> Mise en page du contenu Body
+-> Correction des bugs du Footer
 
-# MAJ : Lissage du fichier 'style.css' -> suppression des appels de balise inutilisés
+# MAJ : Lissage du fichier 'style.css'
+ -> suppression des appels de balise inutilisés
 
-# MAJ : couleur et survol du menu principale de navigation sur la page 'event.html'
+# MAJ : Page 'event.html'
+-> couleur et survol du menu principale de navigation
 
-# MAJ : Réglages et adaptation du menu et du header de la page 'event.html' -> Réduction du logo, du titre et du menu principal
+# MAJ : Page 'event.html'
+-> Réglages et adaptation du menu et du header 
+-> Réduction du logo, du titre et du menu principal
 
-# MAJ : Supression de l'espace en trop entre le contenu événements et le menu
+# MAJ : Page 'event.html'
+-> Supression de l'espace en trop entre le contenu événements et le menu
 
-# MAJ : Ajout d'un hover visible en cohérence avec les couleurs utilisés sur les boutons 'Réserver'
+# MAJ : Toutes les pages
+-> Ajout d'un hover visible en cohérence avec les couleurs utilisés sur les boutons 'Réserver'
 
-# MAJ : Ajout du contenu texte lieu et date pour les événements
+# MAJ : Page 'event.html
+-> Ajout du contenu texte lieu et date pour les événements
 
-# MAJ : Ajout et style du bouton 'Découvrir la compagnie' dans la section 'association' de la page 'home.html'
+# MAJ : Page 'home.html'
+-> Ajout et style du bouton 'Découvrir la compagnie' > section 'association'
 
-# Bugfix (Responsive): Adaptation des éléments de la page home.html pour les écrans de 400px de largeur
+# Bugfix (Responsive) > Page 'home.html'
+-> Adaptation des éléments de la page home.html pour les écrans de 400px de largeur
 
-# Bugfix (Responsive): Adaptation des éléments de la page home.html + event.html pour les écrans de largeur-max : 400px, 700px, 900px, 1024px.
+# Bugfix (Responsive) > Page 'home.html' + 'event.html'
+-> Adaptation des éléments des pages pour les écrans de largeur-max : 400px, 700px, 900px, 1024px.
 
