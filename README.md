@@ -17,6 +17,10 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+MAJ_Bugfix[210803]:
+	* Page 'event.html' : Suppression de l'espace entre le contenu de la page événements (body) et le menu
+	* Ajustement de la présentation des cartes sur la page (3 par 3) -> padding 
+
 *MAJ_STYLE[210803]:
 	* Réduction du logo et du titre, puis centrage du contenu dans le header -> page event.html
 	* Réglages du menu principale en corrélation avec le header -> Page event.html
@@ -94,4 +98,4 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 # MAJ : Réglages et adaptation du menu et du header de la page 'event.html' -> Réduction du logo, du titre et du menu principal
 
-# 
+# MAJ : Supression de l'espace en trop entre le contenu événements et le menu
