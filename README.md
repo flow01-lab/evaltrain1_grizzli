@@ -17,6 +17,10 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+*MAJ_STYLE[210803]:
+	* Réduction du logo et du titre, puis centrage du contenu dans le header -> page event.html
+	* Réglages du menu principale en corrélation avec le header -> Page event.html
+
 *MAJ_STYLE[210801]:
 	* Réglage des couleurs du menu principal
 
@@ -88,4 +92,6 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 # MAJ : couleur et survol du menu principale de navigation sur la page 'event.html'
 
-#
+# MAJ : Réglages et adaptation du menu et du header de la page 'event.html' -> Réduction du logo, du titre et du menu principal
+
+# 
