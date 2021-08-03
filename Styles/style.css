@@ -181,7 +181,9 @@ div#asso-info>div.txt-ly>a:hover{
     position: relative;
     left: 75px;
 }
-
+a.btn.btn-dark.center-btn-cards:hover{
+    background-color: cadetblue;
+}
 
 /* ========= FOOTER ========= */
 
