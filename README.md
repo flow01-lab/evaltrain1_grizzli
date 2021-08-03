@@ -17,6 +17,10 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+#MAJ_STYLE[210803]:
+	* Ajout d'un bouton sur dans la section asso de la page home.html
+	* Stylisation du bouton
+
 #MAJ_CONTENT[210803]:
 	* Ajout de contenus textes pour les événements
 
@@ -110,4 +114,6 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 # MAJ : Ajout du contenu texte lieu et date pour les événements
 
-#
+# MAJ : Ajout et style du bouton 'Découvrir la compagnie' dans la section 'association' de la page 'home.html'
+
+# 

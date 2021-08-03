@@ -166,7 +166,7 @@ div#asso-info>div.txt-ly{
     flex-direction: column;
     margin-left: 40px;
 }
-
+/*
 div#asso-info>div.txt-ly>a.readmore{
     padding-top: 50px;
     color: black;
@@ -175,6 +175,22 @@ div#asso-info>div.txt-ly>a.readmore{
 div#asso-info>div.txt-ly>a:hover{
     font-weight: 600;
     color:cadetblue;
+}*/
+
+button.discover{
+    background-color: cadetblue;
+    border-radius: 3px;
+    padding: 1rem;
+    margin-top: 50px;
+    border-color: transparent;
+    transition: 1s;
+}
+button.discover:hover{
+    background-color: black;
+}
+
+button.discover>a.readmore{
+    color: white;
 }
 
 .center-btn-cards{
