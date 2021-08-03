@@ -17,6 +17,9 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+#MAJ_CONTENT[210803]:
+	* Ajout de contenus textes pour les événements
+
 *MAJ_STYLE[210803]:
 	* Ajout d'un hover visible sur les boutons 'Réserver'
 
@@ -104,5 +107,7 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # MAJ : Supression de l'espace en trop entre le contenu événements et le menu
 
 # MAJ : Ajout d'un hover visible en cohérence avec les couleurs utilisés sur les boutons 'Réserver'
+
+# MAJ : Ajout du contenu texte lieu et date pour les événements
 
 #
