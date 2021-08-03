@@ -166,16 +166,6 @@ div#asso-info>div.txt-ly{
     flex-direction: column;
     margin-left: 40px;
 }
-/*
-div#asso-info>div.txt-ly>a.readmore{
-    padding-top: 50px;
-    color: black;
-}
-
-div#asso-info>div.txt-ly>a:hover{
-    font-weight: 600;
-    color:cadetblue;
-}*/
 
 button.discover{
     background-color: cadetblue;
@@ -258,5 +248,66 @@ div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
 
 @media screen and (max-width: 400px) {
     
+/* === PAGE HOME === */
+    .title-head{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div#logo-main>a>img{
+        height:150px;
+    }
+    div#title-main>h1{
+        font-size: 45px;
+    }
+    div.pages-links{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 80px);
+    }
+    div.pages-links>div#btn-asso{
+        grid-row: 1;
+        justify-self: center;
+        margin-right: 0;
+    }
+    div.pages-links>div#btn-event{
+        grid-row: 2;
+        justify-self: center;
+        margin-left: 0;
+    }
+    div#asso-info{
+        display: flex;
+        flex-direction: column;
+    }
+    #asso>#asso-info > img{
+        width: auto;
+        height: 140px;
+    }
+    div#asso-info>div.txt-ly{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .center-btn-cards{
+        left: 45px;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .ft-1, .ft-2, .ft-3, .ft-4{
+        padding: 15px 0;
+    }
+    .ft-3, .ft-4{
+        margin-left: 50px;
+    }
+    div.ft-1 > a > img{
+        margin-left: 90px;
+    }
+    .ft-2{
+        margin-left: 80px;
+    }
+
 }
 

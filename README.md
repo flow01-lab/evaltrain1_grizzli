@@ -17,6 +17,9 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+MAJ_bugfix[210803]:
+	* Modification du Responsive Design pour écran de 400px max de largeur
+
 #MAJ_STYLE[210803]:
 	* Ajout d'un bouton sur dans la section asso de la page home.html
 	* Stylisation du bouton
@@ -115,5 +118,7 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # MAJ : Ajout du contenu texte lieu et date pour les événements
 
 # MAJ : Ajout et style du bouton 'Découvrir la compagnie' dans la section 'association' de la page 'home.html'
+
+# Bugfix (Responsive): Adaptation des éléments de la page home.html pour les écrans de 400px de largeur
 
 # 
