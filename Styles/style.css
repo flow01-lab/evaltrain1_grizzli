@@ -223,20 +223,66 @@ div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
 
 /* --- RESPONSIVE DESIGN MODE --- */
 
-@media screen and (max-width: 900px) {
-    
-}
+@media screen and (max-width: 1024px) {
+/* === PAGE HOME === */
+.title-head{
+    height: 50vh;
+    }
+    #asso>#asso-info > img{
+        width: auto;
+        height: 250px;
+    }
+    button.discover{
+        margin-top: 15px;
+    }
+    #events-home, #asso {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-@media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 900px) {
+/* === PAGE HOME === */
     .title-head{
         height: 80vh;
         display: flex;
         flex-direction: column;
+        }
+    #asso>#asso-info > img{
+        width: auto;
+        height: 185px;
     }
-    .pages-links{
-        margin-bottom: 40px;
+/* === PAGE EVENEMENTS === */
+    .ft-1, .ft-2, .ft-3, .ft-4 {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 13px;
     }
+}
 
+
+@media screen and (max-width: 700px) {
+    /* === PAGE HOME === */
+    .title-head{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    div.pages-links{
+        margin-bottom: 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 80px);
+    }
+    div.pages-links>div#btn-asso{
+        grid-row: 1;
+        justify-self: center;
+        margin-right: 0;
+    }
+    div.pages-links>div#btn-event{
+        grid-row: 2;
+        justify-self: center;
+        margin-left: 0;
+    }
     div#title-main h1{
         padding-top: 50px;
         font-weight: 800;
@@ -244,11 +290,49 @@ div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
         font-size: 60px;
     }
 
+    div#asso-info{
+        display: flex;
+        flex-direction: column;
+    }
+    #asso>#asso-info > img{
+        width: auto;
+        height: 220px;
+    }
+    div#asso-info>div.txt-ly{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .ft-1, .ft-2, .ft-3, .ft-4{
+        padding: 15px 0;
+        padding-left: 40px;
+    }
+    .ft-3, .ft-4{
+        margin-left: 50px;
+    }
+    div.ft-1 > a > img{
+        margin-left: 90px;
+    }
+    .ft-2{
+        margin-left: 80px;
+    }
+
+    /* === PAGE EVENEMENTS === */
+    .header-top{
+        height: 50vh;
+    }
+    .header-top>div.hd-title{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 400px) {
-    
-/* === PAGE HOME === */
+    /* === PAGE HOME === */
     .title-head{
         height: 60vh;
         display: flex;
@@ -282,7 +366,7 @@ div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
     }
     #asso>#asso-info > img{
         width: auto;
-        height: 140px;
+        height: 185px;
     }
     div#asso-info>div.txt-ly{
         margin-left: 0;
@@ -308,6 +392,18 @@ div.ft-3>ul>a:hover, div.ft-4>ul>a:hover {
     .ft-2{
         margin-left: 80px;
     }
-
+    /* === PAGE EVENEMENTS === */
+    .header-top{
+        height: 65vh;
+    }
+    .header-top>div.hd-title{
+        flex-direction: column;
+    }
+    nav.main-menu>ul{
+        padding-left: 0;
+    }
+    nav.main-menu>ul>li{
+        display: flex;
+        flex-direction: column;
+    }
 }
-

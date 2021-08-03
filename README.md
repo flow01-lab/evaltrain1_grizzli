@@ -17,7 +17,11 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
-MAJ_bugfix[210803]:
+#MAJ_bugfix[210803]:
+	* Modification du Responsive Design pour écran de max 700px, 900px, 1024px.
+	* Gestion des bugs écrans adaptatifs 
+
+#MAJ_bugfix[210803]:
 	* Modification du Responsive Design pour écran de 400px max de largeur
 
 #MAJ_STYLE[210803]:
@@ -121,4 +125,5 @@ MAJ_bugfix[210803]:
 
 # Bugfix (Responsive): Adaptation des éléments de la page home.html pour les écrans de 400px de largeur
 
-# 
+# Bugfix (Responsive): Adaptation des éléments de la page home.html + event.html pour les écrans de largeur-max : 400px, 700px, 900px, 1024px.
+
