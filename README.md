@@ -148,3 +148,7 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # Bugfix (Responsive) > Page 'home.html' + 'event.html'
 -> Adaptation des éléments des pages pour les écrans de largeur-max : 400px, 700px, 900px, 1024px.
 
+# MAJ : Meta description
+-> Mise à jour des méta description dans les pages 'home.html' et 'event.html'
+
+#
