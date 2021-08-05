@@ -41,7 +41,7 @@ div#logo-main{
     width: auto;
 }
 
-div#title-main h1{
+div#title-main h1 a{
     padding-top: 80px;
     font-weight: 800;
     color: black;
@@ -94,9 +94,10 @@ div.btn-header button.btn:hover{
     height: 150px;
     margin: 15px;
 }
-.header-top>div.hd-title>h1{
+.header-top>div.hd-title>h1>a{
     font-size: 50px;
     font-weight: 800;
+    color: black;
 }
 nav.main-menu{
     text-align: center;

@@ -17,6 +17,12 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+#MAJ_ELEMENTS[210806]:
+	* Correction des principaux éléments d'évalutions :
+	-> Ajout des meta keywords
+	-> Ajout des textes alternatifs (balise alt="")
+	-> Ajout de liens cliquable sur le titre de la page ('home.html + event.html')
+
 #MAJ_ELEMENTS[210805]:
 	* Mise à jour du contenu des cartes événements
 	* Ajout des lieux de spectacles
@@ -155,5 +161,12 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # MAJ : Meta description
 -> Mise à jour des méta description dans les pages 'home.html' et 'event.html'
 
-#MAJ : Contenu cartes événements
+# MAJ : Contenu cartes événements
 -> Mise à jour du contenus avec ajout des lieux de spectacle.
+
+# MAJ : Corrections de l'évaluation
+-> Ajout de textes descriptif dans les balises alt=""
+-> Ajout de liens dans le titre de la page (h1 cliquable)
+-> Ajout des meta keywords avec mots clés adapatés au contenu de la page
+
+#
