@@ -17,6 +17,10 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 
 
 # --- MISES À JOUR ET BUGFIXES --- #
+#MAJ_ELEMENTS[210805]:
+	* Mise à jour du contenu des cartes événements
+	* Ajout des lieux de spectacles
+
 #MAJ_bugfix[210803]:
 	* Modification du Responsive Design pour écran de max 700px, 900px, 1024px.
 	* Gestion des bugs écrans adaptatifs 
@@ -151,4 +155,5 @@ Le site de l'association "Compagnie Grizzli" présent sur ce dépot est destiné
 # MAJ : Meta description
 -> Mise à jour des méta description dans les pages 'home.html' et 'event.html'
 
-#
+#MAJ : Contenu cartes événements
+-> Mise à jour du contenus avec ajout des lieux de spectacle.
